@@ -52,11 +52,11 @@ func NewDependencyAnalyzer(filePath string) *DependencyAnalyzer {
 		"google.golang.org/genproto":  "github.com/googleapis/go-genproto",
 
 		// go pkg
-		"gopkg.in/check.v1": "github.com/go-check/check/tree/v1",
-		"gopkg.in/errgo.v2": "github.com/go-errgo/errgo/tree/v2.1.0",
-		"gopkg.in/ini.v1":   "github.com/go-ini/ini/tree/v1.67.0",
-		"gopkg.in/yaml.v2":  "github.com/go-yaml/yaml/tree/v2.4.0",
-		"gopkg.in/yaml.v3":  "github.com/go-yaml/yaml/tree/v3.0.1",
+		"gopkg.in/check.v1": "github.com/go-check/check",
+		"gopkg.in/errgo.v2": "github.com/go-errgo/errgo/v2",
+		"gopkg.in/ini.v1":   "github.com/go-ini/ini",
+		"gopkg.in/yaml.v2":  "github.com/go-yaml/yaml/v2",
+		"gopkg.in/yaml.v3":  "github.com/go-yaml/yaml/v3",
 
 		"honnef.co/go/js/dom": "github.com/dominikh/go-js-dom",
 		"honnef.co/go/tools":  "github.com/dominikh/go-tools",
